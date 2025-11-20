@@ -45,5 +45,11 @@ namespace deu_library
             var f = new StatisticsForm { StartPosition = FormStartPosition.CenterParent };
             f.Show(this);
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            var f = new DataSearchForm { StartPosition = FormStartPosition.CenterParent };
+            f.Show(this);
+        }
     }
 }
